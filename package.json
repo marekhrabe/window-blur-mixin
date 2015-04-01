@@ -1,0 +1,28 @@
+{
+  "name": "window-blur-mixin",
+  "keywords": [
+    "react",
+    "flux",
+    "window",
+    "event",
+    "blur"
+  ],
+  "version": "1.0.1",
+  "description": "Adds onWindowBlur to React components",
+  "main": "lib/main.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -o lib/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marekhrabe/window-blur-mixin"
+  },
+  "bugs": {
+    "url": "https://github.com/marekhrabe/window-blur-mixin/issues"
+  },
+  "author": "Marek Hrabe <marekhrabe@abdoc.net> (https://github.com/marekhrabe)",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
